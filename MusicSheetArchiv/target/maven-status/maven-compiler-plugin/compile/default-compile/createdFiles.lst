@@ -1,0 +1,9 @@
+li\mkg\musicsheetarchive\musicsheet\domain\Composer.class
+li\mkg\musicsheetarchive\musicsheet\MusicSheetArchiveRepository.class
+li\mkg\musicsheetarchive\aspects\LoggingAspect.class
+li\mkg\musicsheetarchive\musicsheet\domain\Arranger.class
+li\mkg\musicsheetarchive\ApplicationMain.class
+li\mkg\musicsheetarchive\musicsheet\domain\MusicSheet.class
+li\mkg\musicsheetarchive\musicsheet\MusicSheetController.class
+li\mkg\musicsheetarchive\musicsheet\domain\Person.class
+li\mkg\musicsheetarchive\configuration\LoggingAspectConfiguration.class

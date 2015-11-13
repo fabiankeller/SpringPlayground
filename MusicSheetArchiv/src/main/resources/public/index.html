@@ -1,0 +1,43 @@
+<html ng-app="musicsheetsApp" ng-controller="musicsheetsCtrl">
+<head>
+    <meta charset="utf8"/>
+    <title>Books</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<table class="table">
+    <thead>
+    <tr>
+        <td>
+            ID
+        </td>
+        <td>
+            Title
+        </td>
+        <td>
+            Arranger
+        </td>
+        <td>
+            Composer
+        </td>
+        <td>
+            Number in Archive
+        </td>
+    </tr>
+    </thead>
+    <tr ng-repeat="musicsheet in musicsheets">
+        <td>{{musicsheet.musicSheetId}}</td>
+        <td>{{musicsheet.title}}</td>
+        <td>{{musicsheet.composer.firstname}} {{musicsheet.composer.lastname}}</td>
+        <td>{{musicsheet.arranger.firstname}} {{musicsheet.arranger.lastname}}</td>
+        <td>{{musicsheet.number}}</td>
+    </tr>
+
+
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+<script src="/app/app.js"></script>
+</body>
+</html>
